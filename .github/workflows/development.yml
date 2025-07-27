@@ -23,6 +23,7 @@ jobs:
     steps:
       - run : |
           brew tap AdoptOpenJDK/openjdk
+          sed -i '' '/^[[:space:]]*appcast[[:space:]]/d' "$(brew --repository homebrew/cask)/Casks/adoptopenjdk8.rb"
           brew install --cask adoptopenjdk8
       - name: Install GNU Make
         run: |
