@@ -21,10 +21,10 @@ jobs:
     
     runs-on: macos-latest
     steps:
-      - run : |
-          brew tap AdoptOpenJDK/openjdk
-          sed -i '' '/^[[:space:]]*appcast[[:space:]]/d' "$(brew --repository homebrew/cask)/Casks/adoptopenjdk8.rb"
-          brew install --cask adoptopenjdk8
+      - uses: actions/setup-java@v3.14.1
+        with:
+          java-version: 8
+          distribution: oracle
       - name: Install GNU Make
         run: |
           brew update
