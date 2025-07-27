@@ -22,7 +22,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - run : |
-          brew install --cask zulu@8
+          brew tap AdoptOpenJDK/openjdk
+          brew install --cask adoptopenjdk8
       - name: Install GNU Make
         run: |
           brew update
