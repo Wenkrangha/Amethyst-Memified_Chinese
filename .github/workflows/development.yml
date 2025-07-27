@@ -22,7 +22,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - run : |
-          brew install --cask zulu8
+          brew install --cask zulu@8
       - name: Install GNU Make
         run: |
           brew update
