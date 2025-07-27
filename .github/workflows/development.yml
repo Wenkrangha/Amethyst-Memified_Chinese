@@ -21,6 +21,9 @@ jobs:
     
     runs-on: macos-latest
     steps:
+      - run : |
+          brew update
+          brew install llvm ldid
       - uses: actions/setup-java@v3.14.1
         with:
           java-version: 8
