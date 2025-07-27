@@ -24,10 +24,11 @@ jobs:
       - run : |
           brew update
           brew install llvm ldid
-      - uses: actions/setup-java@v3.14.1
+      - name: Set up Java 8
+        uses: actions/setup-java@v4
         with:
-          java-version: 8
-          distribution: zulu
+          distribution: 'zulu'
+          java-version: '8'
       - name: Install GNU Make
         run: |
           brew update
