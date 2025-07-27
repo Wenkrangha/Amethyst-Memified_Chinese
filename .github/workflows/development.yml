@@ -21,6 +21,10 @@ jobs:
     
     runs-on: macos-latest
     steps:
+      - name: Install JDK 8 (ARM)
+        run: |
+          brew tap AdoptOpenJDK/openjdk
+          brew install --cask adoptopenjdk8
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
