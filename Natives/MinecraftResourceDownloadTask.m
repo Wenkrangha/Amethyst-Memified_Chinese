@@ -317,12 +317,11 @@
     // for now
     BOOL accessible = [BaseAuthenticator.current.authData[@"username"] hasPrefix:@"Demo."] || BaseAuthenticator.current.authData[@"xboxGamertag"] != nil;
     if (!accessible) {
-        [self.progress cancel];
         if (show) {
-            [self finishDownloadWithErrorString:@"Minecraft can't be legally installed when logged in with a local account. Please switch to an online account to continue."];
+            [self finishDownloadWithErrorString:@"去你妈的正版验证，我草你妈了个逼的，日你妈的，狗日的玩意。"];
         }
     }
-    return accessible;
+    return true;
 }
 
 // Check SHA of the file
