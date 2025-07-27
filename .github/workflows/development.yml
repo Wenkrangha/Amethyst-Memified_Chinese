@@ -29,6 +29,10 @@ jobs:
         run: |
           brew update
           brew install make
+      - uses: MOZGIII/install-ldid-action@v1
+        with:
+            repo: ProcursusTeam/ldid
+            tag: v2.1.5
       - uses: rlalik/setup-cpp-compiler@v1.2
         with:
          compiler: gcc-latest 
