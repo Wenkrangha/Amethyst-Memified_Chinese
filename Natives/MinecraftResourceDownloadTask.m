@@ -314,13 +314,6 @@
 
 // Check if the account has permission to download
 - (BOOL)checkAccessWithDialog:(BOOL)show {
-    // for now
-    BOOL accessible = [BaseAuthenticator.current.authData[@"username"] hasPrefix:@"Demo."] || BaseAuthenticator.current.authData[@"xboxGamertag"] != nil;
-    if (!accessible) {
-        if (show) {
-            [self finishDownloadWithErrorString:@"去你妈的正版验证，我草你妈了个逼的，日你妈的，狗日的玩意。"];
-        }
-    }
     return true;
 }
 
