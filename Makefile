@@ -180,15 +180,15 @@ ifneq ($(call METHOD_DEPCHECK,cmake --version),1)
 $(error You need to install cmake)
 endif
 
-ifneq ($(call METHOD_DEPCHECK,$(BOOTJDK)/javac -version),1)
-$(error You need to install JDK 8)
-endif
+#ifneq ($(call METHOD_DEPCHECK,$(BOOTJDK)/javac -version),1)
+#$(error You need to install JDK 8)
+#endif
 
-ifeq ($(IOS),0)
-ifeq ($(filter 1.8.0,$(shell $(BOOTJDK)/javac -version &> javaver.txt && cat javaver.txt | cut -b 7-11 && rm -rf javaver.txt)),)
-$(error You need to install JDK 8)
-endif
-endif
+#ifeq ($(IOS),0)
+#ifeq ($(filter 1.8.0,$(shell $(BOOTJDK)/javac -version &> javaver.txt && cat javaver.txt | cut -b 7-11 && rm -rf javaver.txt)),)
+#$(error You need to install JDK 8)
+#endif
+#endif
 
 ifneq ($(call METHOD_DEPCHECK,ldid),1)
 $(error You need to install ldid)
