@@ -22,8 +22,9 @@ jobs:
     runs-on: macos-latest
     steps:
       - run : |
-          brew tap homebrew/cask-versions
-          brew install --cask temurin8
+          brew tap homebrew/cask
+          brew tap adoptopenjdk/openjdk
+          brew install --cask adoptopenjdk8
       - name: Install GNU Make
         run: |
           brew update
