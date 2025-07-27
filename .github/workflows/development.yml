@@ -21,6 +21,10 @@ jobs:
     
     runs-on: macos-latest
     steps:
+      - name: Install GNU Make
+        run: |
+          brew update
+          brew install make
       - uses: rlalik/setup-cpp-compiler@v1.2
         with:
          compiler: gcc-latest 
