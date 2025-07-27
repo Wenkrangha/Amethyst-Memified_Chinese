@@ -21,6 +21,12 @@ jobs:
     
     runs-on: macos-latest
     steps:
+      - uses: rlalik/setup-cpp-compiler@v1.2
+        with:
+         compiler: gcc-latest 
+      - uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
       - name: Remove work folders
         run: |
           echo "before"
