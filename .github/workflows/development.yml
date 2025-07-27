@@ -44,7 +44,7 @@ jobs:
         with:
           xcode-version: latest-stable
       - run : |
-              export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Zulu_jdk/8.0.462-8/arm64/bin
+              export JAVA_HOME=/Users/runner/hostedtoolcache/Java_Zulu_jdk/8.0.462-8/arm64
               export PATH=$JAVA_HOME/bin:$PATH
       - name: Remove work folders
         run: |
@@ -108,7 +108,7 @@ jobs:
         run: |
           export PATH=/opt/homebrew/bin:$PATH
           export SLIMMED=1
-          export BOOTJDK="/Users/runner/hostedtoolcache/Java_Zulu_jdk/8.0.462-8/arm64"
+          export BOOTJDK="/Users/runner/hostedtoolcache/Java_Zulu_jdk/8.0.462-8/arm64/bin"
           if [ "${{ matrix.platform_name }}" == "ios" ]; then
             # Build ipa and tipa for iOS
             gmake -j$(sysctl -n hw.ncpu) dsym package PLATFORM=${{ matrix.platform }}
