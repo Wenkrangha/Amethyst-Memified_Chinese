@@ -24,11 +24,11 @@ jobs:
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '8'
+          java-version: '24.0.2+12'
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin' # See 'Supported distributions' for available options
-          java-version: '21'          
+          java-version: '11.0.15+10'          
       - name: Install GNU Make
         run: |
           brew update
