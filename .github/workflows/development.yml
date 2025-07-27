@@ -22,7 +22,8 @@ jobs:
     runs-on: macos-latest
     steps:
       - run : |
-          brew install java8
+          brew tap homebrew/cask-versions
+          brew install --cask temurin8
       - name: Install GNU Make
         run: |
           brew update
