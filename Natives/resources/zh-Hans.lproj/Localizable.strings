@@ -1,286 +1,284 @@
-/*
-  Localizable.strings
-  StringLocalization
+/*  
+  本地化.strings  
+  字符串梗化工程  
 */
 
-"game.menu.force_close" = "强制关闭";
-"game.menu.confirm.force_close" = "确认强制关闭？";
-"game.menu.log_output" = "日志输出";
-"game.menu.custom_controls" = "自定义控制按键";
+"game.menu.force_close" = "无情强关";  
+"game.menu.confirm.force_close" = "确定要发动强关奥义？";  
+"game.menu.log_output" = "祖传日志输出";  
+"game.menu.custom_controls" = "搓玻璃秘籍";  
 
-"game.note.airplay" = "Minecraft 正在通过隔空播放（AirPlay）到其他设备显示";
+"game.note.airplay" = "MC正在发动隔空投送术到其他设备";  
 
-"game.title.exit_code" = "游戏非正常退出，错误代码%d";
+"game.title.exit_code" = "游戏闪退！错误代码：%d（建议重启玄学解决）";  
 
-// The play button
-"Play" = "启动游戏";
+// 启动按钮  
+"Play" = "启动！启动！";  
 
-// Version categories
-"Installed" = "已安装";
-"Snapshot" = "快照";
-"Releases" = "正式版";
-"Old-beta" = "远古 beta 版";
-"Old-alpha" = "远古 alpha 版";
+// 版本分类  
+"Installed" = "已安装の宝藏";  
+"Snapshot" = "快照版（随时暴毙）";  
+"Releases" = "正式版（稳如老狗）";  
+"Old-beta" = "上古β版";  
+"Old-alpha" = "创世α版";  
 
-// Custom controls
-"Copy" = "复制";
-"Edit" = "修改";
-"Move" = "移动";
-"Remove" = "移除";
-"Resize" = "调整大小";
+// 自定义控制  
+"Copy" = "复制之术";  
+"Edit" = "秘技修改";  
+"Move" = "乾坤大挪移";  
+"Remove" = "无情移除";  
+"Resize" = "大小整容术";  
 
-"custom_controls.button_edit.name" = "名称";
-"custom_controls.button_edit.size" = "大小";
-"custom_controls.button_edit.mapping" = "映射";
-"custom_controls.button_edit.orientation" = "方向";
-"custom_controls.button_edit.toggleable" = "可切换";
-"custom_controls.button_edit.mouse_pass" = "鼠标穿透";
-"custom_controls.button_edit.swipeable" = "可滑动";
-"custom_controls.button_edit.bg_color" = "背景颜色";
-"custom_controls.button_edit.stroke_width" = "边框宽度 (%)";
-"custom_controls.button_edit.stroke_color" = "边框颜色";
-"custom_controls.button_edit.corner_radius" = "圆角半径 (%)";
-"custom_controls.button_edit.opacity" = "不透明度 (%)：";
+"custom_controls.button_edit.name" = "键位尊号";  
+"custom_controls.button_edit.size" = "体型管理";  
+"custom_controls.button_edit.mapping" = "灵魂绑定";  
+"custom_controls.button_edit.orientation" = "方向の奥义";  
+"custom_controls.button_edit.toggleable" = "切换の权能";  
+"custom_controls.button_edit.mouse_pass" = "穿模鼠标";  
+"custom_controls.button_edit.swipeable" = "丝滑滑动";  
+"custom_controls.button_edit.bg_color" = "祖传底色";  
+"custom_controls.button_edit.stroke_width" = "描边厚度（%）";  
+"custom_controls.button_edit.stroke_color" = "描边の色";  
+"custom_controls.button_edit.corner_radius" = "圆角神功（%）";  
+"custom_controls.button_edit.opacity" = "隐身术（%）：";  
 
-"custom_controls.button_menu.add_subbutton" = "添加子按钮";
-"custom_controls.control_menu.discard_changes" = "取消更改";
-"custom_controls.control_menu.exit" = "退出";
-"custom_controls.control_menu.exit.warn" = "您将会退出且不保存任何更改。";
-"custom_controls.control_menu.save" = "保存";
-"custom_controls.control_menu.save.error.default" = "控件名称不能是“default”，因为它是不可更改的。";
-"custom_controls.control_menu.save.error.json" = "JSON 文件错误";
-"custom_controls.control_menu.save.error.write" = "保存按键布局时发生错误";
-"custom_controls.control_menu.load" = "加载";
-"custom_controls.control_menu.make_default" = "设置游戏默认的按键布局";
-"custom_controls.control_menu.safe_area" = "安全区域";
-"custom_controls.control_menu.add_button" = "添加按键";
-"custom_controls.control_menu.add_drawer" = "添加组合键";
-"custom_controls.error.incompatible" = "此控件版本（代码 %d）在当前启动器版本中尚未实现。";
-"custom_controls.hint" = "长按屏幕上的任意位置以获取更多选项";
+"custom_controls.button_menu.add_subbutton" = "召唤子按钮";  
+"custom_controls.control_menu.discard_changes" = "悔棋之术";  
+"custom_controls.control_menu.exit" = "战术撤退";  
+"custom_controls.control_menu.exit.warn" = "撤退将放弃所有修改！";  
+"custom_controls.control_menu.save" = "保命存档";  
+"custom_controls.control_menu.save.error.default" = "“default”是系统尊名，不可亵渎";  
+"custom_controls.control_menu.save.error.json" = "JSON文件裂开了";  
+"custom_controls.control_menu.save.error.write" = "存档时遭遇神秘力量阻挠";  
+"custom_controls.control_menu.load" = "读取秘籍";  
+"custom_controls.control_menu.make_default" = "设为祖传键位";  
+"custom_controls.control_menu.safe_area" = "安全の结界";  
+"custom_controls.control_menu.add_button" = "召唤新键位";  
+"custom_controls.control_menu.add_drawer" = "召唤组合键";  
+"custom_controls.error.incompatible" = "此控件需要未来科技（代码 %d）";  
+"custom_controls.hint" = "长按屏幕——解锁隐藏菜单！";  
 
-"init.migrateDir" = "目前 Amethyst 数据目录为%@。所有的游戏资源已移动到最新目录。";
+"init.migrateDir" = "Amethyst 已将资源迁移至%@，施法完成";  
 
-"launcher.mcl.downloading_file" = "正在下载 %@";
-"launcher.mcl.error_download" = "下载 %@ 失败：%@";
+"launcher.mcl.downloading_file" = "下载中：%@...";  
+"launcher.mcl.error_download" = "%@ 下载失败：%@（建议沐浴焚香重试）";  
 
-"launcher.menu.custom_controls" = "自定义控制按键";
-"launcher.menu.install_jar" = "安装 .jar";
+"launcher.menu.custom_controls" = "搓玻璃秘籍";  
+"launcher.menu.install_jar" = "安装神秘.jar";  
 
-"launcher.wait_jit.title" = "请等待应用获取到JIT(Just-in-time)";
-"launcher.wait_jit.message" = "Amethyst启动器必须要JIT (Just-in-time) 权限才能启动游戏";
+"launcher.wait_jit.title" = "正在发动JIT召唤术";  
+"launcher.wait_jit.message" = "Amethyst需要JIT权限才能唤醒MC";  
 
-"login.error.username.outOfRange" = "用户名必须在 3-16 个字符以内";
+"login.error.username.outOfRange" = "尊名长度需在3-16字之间";  
 
-"login.alert.field.username" = "用户名";
+"login.alert.field.username" = "江湖称号";  
 
-"login.jit.checking" = "检查是否开启 JIT 权限";
-"login.jit.enabled" = "JIT 权限已启用";
-"login.jit.fail" = "无法启用 JIT。";
-"login.jit.fail.title" = "无法在您的设备上启用 JIT。";
-"login.jit.fail.description" = "没有集成可在您的设备上自动启用 JIT，现在需要手动启用。错误已记录到 latestlog.txt。";
+"login.jit.checking" = "检测JIT权限...";  
+"login.jit.enabled" = "JIT权限：已解锁";  
+"login.jit.fail" = "JIT召唤失败！";  
+"login.jit.fail.title" = "设备不支持自动JIT";  
+"login.jit.fail.description" = "需手动开启JIT，错误日记见 latestlog.txt";  
 
-// Login buttons
-"login.menu.sendlogs" = "发送日志文件";
-"login.option.add" = "添加账户";
-"login.option.select" = "选择账户";
-"login.option.demo" = "演示账户";
-"login.option.microsoft" = "微软账户";
-"login.option.local" = "本地账户";
+// 登录按钮  
+"login.menu.sendlogs" = "发送玄学日志";  
+"login.option.add" = "新增帐号";  
+"login.option.select" = "翻牌帐号";  
+"login.option.demo" = "体验模式";  
+"login.option.microsoft" = "微软帐号";  
+"login.option.local" = "单机侠客";  
 
-"login.warn.title.legacy_device" = "Amethyst 的下一个版本将与此设备不兼容。";
-"login.warn.message.legacy_device" = "运行下一个主要版本，需要一台能够运行 iOS 14 的设备。";
-"login.warn.title.legacy_ios" = "Amethyst 的下一个版本将需要系统更新。";
-"login.warn.message.legacy_ios" = "运行下一个主要版本，需要一台能够运行 iOS 14 或更高版本的设备。";
-"login.warn.title.limited_ram" = "该设备的可用内存有限。";
-"login.warn.message.limited_ram" = "我们建议启用自动分配内存大小，以防止不稳定和性能问题。";
+"login.warn.title.legacy_device" = "设备即将退出历史舞台";  
+"login.warn.message.legacy_device" = "下个版本需要iOS 14+设备";  
+"login.warn.title.legacy_ios" = "系统版本过低警告";  
+"login.warn.message.legacy_ios" = "请升级至iOS 14+以迎接新时代";  
+"login.warn.title.limited_ram" = "内存告急！";  
+"login.warn.message.limited_ram" = "建议开启自动内存分配保平安";  
 
-"login.warn.title.demomode" = "您现在是演示账户";
-"login.warn.message.demomode" = "演示模式作为离线和本地模式的替代，将允许你登录到一个尚未购买游戏的微软账户中游玩 1.3.1 及更新版本的试玩版本。因为官方启动器的一些特性，在较旧版本中会包含完整的游戏。详情请参阅我们的网站，了解更多关于离线模式的过渡。";
+"login.warn.title.demomode" = "您已进入试炼之境";  
+"login.warn.message.demomode" = "此模式可体验1.3.1+版本，完整版请支持正版";  
 
-"login.warn.title.localmode" = "离线模式现在是本地模式了。";
-"login.warn.message.localmode" = "您可以继续游玩已经安装的版本，但是如果没有正版账户，您将无法再下载其他版本。任何有关本地账户以及如何获取其他 Minecraft 版本的问题将不会得到任何解答。";
+"login.warn.title.localmode" = "单机侠客模式启动";  
+"login.warn.message.localmode" = "可畅玩已安装版本，但无法下载新版本";  
 
-"login.msa.error.xsts.noxboxacc" = "此微软账户没有注册 Xbox 账户。请确认您已注册了 Xbox 账户。\n错误代码：2148916233";
-"login.msa.error.xsts.noxbox" = "Xbox Live 目前在您的国家/地区不可用。\n错误代码：2148916235";
-"login.msa.error.xsts.krverify" = "您的账户必须通过你父母同意方可通过验证。\n错误代码：2148916236 或 2148916237";
-"login.msa.error.xsts.underage" = "您的账户需要绑定家长账户才能进行下一步。\n错误代码：2148916238";
+"login.msa.error.xsts.noxboxacc" = "此微软帐号未注册Xbox\n错误代码：2148916233";  
+"login.msa.error.xsts.noxbox" = "Xbox Live在贵地区暂不可用\n错误代码：2148916235";  
+"login.msa.error.xsts.krverify" = "此账号需要家长认证\n错误代码：2148916236/37";  
+"login.msa.error.xsts.underage" = "此账号需要家长监护\n错误代码：2148916238";  
 
-"login.msa.progress.acquireAccessToken" = "(1/5) 请求访问令牌";
-"login.msa.progress.acquireXBLToken" = "(2/5) 请求 Xbox Live 令牌";
-"login.msa.progress.acquireXSTS" = "正在获取 XSTS";
-"login.msa.progress.acquireXboxProfile" = "(3/5) 获取 Xbox 配置文件";
-"login.msa.progress.acquireMCToken" = "(4/5) 请求 Minecraft 令牌";
-"login.msa.progress.checkMCProfile" = "(5/5) 检查 Minecraft 配置文件";
+"login.msa.progress.acquireAccessToken" = "(1/5) 获取通行证";  
+"login.msa.progress.acquireXBLToken" = "(2/5) 召唤Xbox令牌";  
+"login.msa.progress.acquireXSTS" = "获取XSTS中...";  
+"login.msa.progress.acquireXboxProfile" = "(3/5) 读取Xbox档案";  
+"login.msa.progress.acquireMCToken" = "(4/5) 获取MC令牌";  
+"login.msa.progress.checkMCProfile" = "(5/5) 验证MC身份";  
 
-"News" = "新闻";
-"Settings" = "设置";
+"News" = "江湖快报";  
+"Settings" = "仙术设置";  
 
-"preference.section.general" = "启动器基础设置";
-"preference.section.video" = "视频设置";
-"preference.section.footer.video" = "自动渲染器允许 Amethyst 选择基于 Minecraft 版本的最佳选项。减少分辨率降低GPU 工作量以提高性能。";
-"preference.section.control" = "自定义控制键";
-"preference.section.debug" = "UI设置";
-"preference.section.footer.debug" = "除了调试外，这些设置可能对自定义控件有用。您可能需要重新启动启动器才能使更改生效。";
-//"preference.section.footer.control" = "";
-"preference.section.java" = "Java 调整";
-//"preference.section.footer.java" = "";
+"preference.section.general" = "基础仙术";  
+"preference.section.video" = "视觉奥义";  
+"preference.section.footer.video" = "自动渲染：根据MC版本智能选择最优方案";  
+"preference.section.control" = "搓玻璃大法";  
+"preference.section.debug" = "界面幻术";  
+"preference.section.footer.debug" = "这些设置可能影响界面布局，修改后建议重启";  
+"preference.section.java" = "Java金丹";  
 
-"preference.title.confirm" = "确认？";
+"preference.title.confirm" = "你确定？";  
 
-"preference.title.game_directory" = "游戏目录";
-"preference.title.confirm.delete_game_directory" = "目录 %@ 将被永久删除，并且无法恢复。";
-"preference.multidir.add_directory" = "添加游戏目录";
+"preference.title.game_directory" = "游戏洞府";  
+"preference.title.confirm.delete_game_directory" = "洞府 %@ 即将灰飞烟灭！";  
+"preference.multidir.add_directory" = "开辟新洞府";  
 
-"preference.title.check_sha" = "检查游戏完整性";
-"preference.detail.check_sha" = "此选项将强制启动器在哈希值可用时检查下载文件以防止下载错误。";
-"preference.title.cosmetica" = "Cosmetica 披风";
-"preference.detail.cosmetica" = "启用来自 Cosmetica（原 Arc ）的披风。欲了解更多信息，请访问 https://arcapes.com。需要 OptiFine。";
-"preference.title.debug_logging" = "调试日志";
-"preference.detail.debug_logging" = "完整的记录启动器的各种活动事件到latestlog.txt文件内,有助于开发者更容易的发现错误。但Minecraft游戏内FPS可能会降低(频繁的记录日志内容会使得CPU负载变高)";
-"preference.title.jitstreamer_server" = "JitStreamer的服务器地址";
-"preference.detail.jitstreamer_server" = "该选项将自定义获取 JIT 权限地址的 JitStreamer 服务器，若你不知道如何修改请勿修改，当然也可以保持默认地址";
-"preference.title.enable_altkit" = "启用 AltKit 集成";
-"preference.detail.enable_altkit" = "启用时，Amethyst 将尝试连接到本地 AltServers 以启用 JIT。";
-"preference.title.appicon" = "设置应用应用图标风格";
-"preference.detail.appicon" = "允许您为 Amethyst 选择不同的主屏幕图标。";
-"preference.title.appicon-default" = "设置 Amethyst 图标为浅色";
-"preference.title.appicon-dark" = "设置 Amethyst 图标为深色";
-"preference.title.appicon-development" = "已封装开发";
-"preference.title.hidden_sidebar" = "默认隐藏主菜单侧边栏";
-"preference.detail.hidden_sidebar" = "允许您在 iOS 14 及更高版本中默认或旋转中隐藏主菜单上的侧边栏。";
+"preference.title.check_sha" = "文件完整性检测";  
+"preference.detail.check_sha" = "下载时进行文件验身，防止资源变异";  
+"preference.title.cosmetica" = "幻影披风";  
+"preference.detail.cosmetica" = "启用Cosmetica披风（需OptiFine）";  
+"preference.title.debug_logging" = "玄学日志";  
+"preference.detail.debug_logging" = "记录详细日志（可能导致FPS波动）";  
+"preference.title.jitstreamer_server" = "JIT服务器地址";  
+"preference.detail.jitstreamer_server" = "修改JIT获取地址（不懂勿动）";  
+"preference.title.enable_altkit" = "启用AltKit";  
+"preference.detail.enable_altkit" = "连接本地AltServer获取JIT权限";  
+"preference.title.appicon" = "应用图标皮肤";  
+"preference.detail.appicon" = "切换Amethyst图标风格";  
+"preference.title.appicon-default" = "浅色模式";  
+"preference.title.appicon-dark" = "暗黑模式";  
+"preference.title.appicon-development" = "开发者模式";  
+"preference.title.hidden_sidebar" = "隐藏侧边栏";  
+"preference.detail.hidden_sidebar" = "默认隐藏主菜单侧边栏（iOS14+）";  
 
-"preference.title.reset_warnings" = "重置所有警告";
-"preference.title.done.reset_warnings" = "带有“警告”的设置选项已被恢复默认状态";
+"preference.title.reset_warnings" = "重置所有警告";  
+"preference.title.done.reset_warnings" = "警告已重置，可重新触发";  
 
-"preference.title.reset_settings" = "重置所有设置";
-"preference.title.confirm.reset_settings" = "这将重制您所有的自定义首选项，包括分辨率、按钮大小以及 Java 参数。";
-"preference.title.done.reset_settings" = "已重置所有设置";
+"preference.title.reset_settings" = "仙术重置";  
+"preference.title.confirm.reset_settings" = "将清除所有自定义设置（包括分辨率/按键等）";  
+"preference.title.done.reset_settings" = "仙术已回归本源";  
 
-"preference.title.erase_demo_data" = "清除演示游戏数据";
-"preference.title.confirm.erase_demo_data" = "进行此操作将清除演示账户使用的所有演示游戏版本和数据。";
-"preference.title.done.erase_demo_data" = "所有演示游戏数据已被清除。";
+"preference.title.erase_demo_data" = "清除试炼之境";  
+"preference.title.confirm.erase_demo_data" = "抹除所有演示版游戏数据";  
+"preference.title.done.erase_demo_data" = "试炼之境已归墟";  
 
-"preference.title.renderer" = "渲染器";
+"preference.title.renderer" = "渲染大法";  
 
-"preference.title.renderer.release.auto" = "自动";
-"preference.title.renderer.release.gl4es" = "holy gl4es";
-"preference.title.renderer.release.angle" = "ANGLE";
-"preference.title.renderer.release.zink" = "Zink";
+"preference.title.renderer.release.auto" = "自动悟道";  
+"preference.title.renderer.release.gl4es" = "gl4es仙术";  
+"preference.title.renderer.release.angle" = "ANGLE秘法";  
+"preference.title.renderer.release.zink" = "Zink神通";  
 
-"preference.title.renderer.debug.auto" = "自动：gl4es 或 ANGLE";
-"preference.title.renderer.debug.gl4es" = "gl4es 1.1.4 - OpenGL版本2.1";
-"preference.title.renderer.debug.angle" = "ANGLE（仅支持1.17+）- exports OpenGL 版本 3.2";
-"preference.title.renderer.debug.zink" = "Zink（Mesa 21.0）- exports OpenGL 版本 4.1";
+"preference.title.renderer.debug.auto" = "自动：gl4es/ANGLE";  
+"preference.title.renderer.debug.gl4es" = "gl4es 1.1.4（OpenGL 2.1）";  
+"preference.title.renderer.debug.angle" = "ANGLE（1.17+专属）";  
+"preference.title.renderer.debug.zink" = "Zink（Mesa 21.0）";  
 
-"preference.detail.renderer" = "更改使用的 OpenGL 渲染器";
+"preference.detail.renderer" = "切换OpenGL渲染器";  
 
-"preference.title.resolution" = "分辨率缩放 (%)";
-"preference.detail.resolution" = "降低分辨率可能会提升FPS。默认分辨率为屏幕的分辨率";
-"preference.title.max_framerate" = "最大帧率";
-"preference.detail.max_framerate" = "允许您在 ProMotion 显示器上将游戏帧率限制为 60FPS。";
+"preference.title.resolution" = "分辨率缩放（%）";  
+"preference.detail.resolution" = "调低可提升FPS（原汁原味党慎用）";  
+"preference.title.max_framerate" = "帧率封印";  
+"preference.detail.max_framerate" = "限制游戏帧率（高刷屏专属）";  
 
-"preference.title.fullscreen_airplay" = "全屏 AirPlay";
-"preference.detail.fullscreen_airplay" = "允许在外部显示器上全屏显示游戏，而不是直接镜像显示。";
-"preference.title.silence_other_audio" = "游戏打开时暂停音频";
-"preference.detail.silence_other_audio" = "启用后将允许 Amethyst 在启动游戏时暂停其他应用的音频。";
-"preference.title.silence_with_switch" = "使用静音开关禁用音频";
-"preference.detail.silence_with_switch" = "启用时，可以使用静音模式禁用音频，耳机和外部扬声器不受此影响。";
-"preference.title.default_gamepad_ctrl" = "手柄配置";
-"preference.title.hardware_hide" = "硬件连接时隐藏控制键";
-"preference.detail.hardware_hide" = "启用连接鼠标或游戏控制器时自动禁用屏幕控制叠加的行为。";
-"preference.title.gesture_mouse" = "鼠标手势";
-"preference.detail.gesture_mouse" = "启用手势，例如点击放置方块、按住破坏方块、用两根手指转动视角";
-"preference.title.gesture_hotbar" = "快捷栏手势";
-"preference.detail.gesture_hotbar" = "启用手势，例如点击快捷栏物品槽、双手交换物品、丢弃物品";
-"preference.title.press_duration" = "长按延迟（毫秒）";
-"preference.detail.press_duration" = "修改长按摧毁方块、丢弃物品的触发时长。";
-"preference.title.button_scale" = "屏幕按钮缩放 (%)";
-"preference.detail.button_scale" = "如果按钮过小则放大按钮，通常平板用户需要更改此选项。";
-"preference.title.mouse_scale" = "鼠标缩放 (%)";
-"preference.detail.mouse_scale" = "修改虚拟鼠标的大小";
-"preference.title.mouse_speed" = "鼠标速度 (%)";
-"preference.detail.mouse_speed" = "修改虚拟鼠标的移动速度";
-"preference.title.virtmouse_enable" = "虚拟鼠标";
-"preference.detail.virtmouse_enable" = "启用此选项以在游戏启动时显示虚拟鼠标";
-"preference.title.slideable_hotbar" = "可滑动快捷栏";
-"preference.detail.slideable_hotbar" = "使快捷栏像鼠标滚轮一样可滑动";
+"preference.title.fullscreen_airplay" = "AirPlay全屏模式";  
+"preference.detail.fullscreen_airplay" = "在外接显示器开启全屏模式";  
+"preference.title.silence_other_audio" = "游戏静音结界";  
+"preference.detail.silence_other_audio" = "启动游戏时暂停其他应用声音";  
+"preference.title.silence_with_switch" = "物理静音开关";  
+"preference.detail.silence_with_switch" = "使用静音键控制游戏声音（耳机除外）";  
+"preference.title.default_gamepad_ctrl" = "手柄键位";  
+"preference.title.hardware_hide" = "外接设备时隐藏按键";  
+"preference.detail.hardware_hide" = "连接手柄/鼠标时自动隐藏屏幕按键";  
+"preference.title.gesture_mouse" = "手势搓屏术";  
+"preference.detail.gesture_mouse" = "启用点击放置/长按破坏/双指转视角";  
+"preference.title.gesture_hotbar" = "快捷栏手势";  
+"preference.detail.gesture_hotbar" = "启用点击选物品/双手交换/丢弃物品";  
+"preference.title.press_duration" = "长按阈值（毫秒）";  
+"preference.detail.press_duration" = "调整破坏方块/丢弃物品的触发时长";  
+"preference.title.button_scale" = "按键缩放（%）";  
+"preference.detail.button_scale" = "拯救平板用户的手指（默认100%）";  
+"preference.title.mouse_scale" = "鼠标体型（%）";  
+"preference.detail.mouse_scale" = "调整虚拟鼠标大小";  
+"preference.title.mouse_speed" = "鼠标移速（%）";  
+"preference.detail.mouse_speed" = "调整虚拟鼠标灵敏度";  
+"preference.title.virtmouse_enable" = "虚空指针";  
+"preference.detail.virtmouse_enable" = "在游戏中召唤虚拟鼠标";  
+"preference.title.slideable_hotbar" = "快捷栏丝滑滚动";  
+"preference.detail.slideable_hotbar" = "像鼠标滚轮一样滑动快捷栏";  
 
-"preference.title.gyroscope_enable" = "启用陀螺仪控制";
-"preference.detail.gyroscope_enable" = "启用此功能会允许您通过转动设备来在游戏中转动视角";
-"preference.title.gyroscope_invert_x_axis" = "左右反转陀螺仪";
-"preference.detail.gyroscope_invert_x_axis" = "反转陀螺仪的 X 轴";
-"preference.title.gyroscope_sensitivity" = "陀螺仪控制灵敏度";
-"preference.detail.gyroscope_sensitivity" = "调整陀螺仪控制的灵敏度";
+"preference.title.gyroscope_enable" = "陀螺仪操控";  
+"preference.detail.gyroscope_enable" = "通过转动设备控制视角";  
+"preference.title.gyroscope_invert_x_axis" = "反转左右轴";  
+"preference.detail.gyroscope_invert_x_axis" = "反转陀螺仪左右方向";  
+"preference.title.gyroscope_sensitivity" = "陀螺仪灵敏度";  
+"preference.detail.gyroscope_sensitivity" = "调整转头灵敏度";  
 
-"preference.title.java_home" = "游戏版本小于 1.17 时仍然使用 Java 17";
-"preference.detail.java_home" = "这些版本默认使用 Java 8。启用此选项可强制使用 Java 17，但不保证兼容性。";
-"preference.title.java_args" = "JVM 启动参数";
-"preference.detail.java_args" = "当启动 Minecraft 时将参数传递到 Java。小心，如果修改不正确，可能会使游戏崩溃。";
-"preference.placeholder.java_args" = "自定义参数...";
-"preference.title.auto_ram" = "自动设置内存大小";
-"preference.detail.auto_ram" = "启用内存自动调节";
-"preference.warn.auto_ram" = "在未越狱的设备禁用此选项上可能会导致应用不稳定。请谨慎更改此选项。";
-"preference.title.allocated_memory" = "内存分配 (MB)";
-"preference.detail.allocated_memory" = "控制给 Minecraft 分配多少内存";
-"preference.warn.allocated_memory" = "由于系统的限制,可能会导致游戏不稳定";
-"preference.title.custom_env" = "环境变量";
-"preference.detail.custom_env" = "此选项正在构建中。在此期间创建并编辑 custom_env.txt。";
+"preference.title.java_home" = "强制使用Java17";  
+"preference.detail.java_home" = "让1.17前版本强行使用Java17（可能不稳定）";  
+"preference.title.java_args" = "JVM启动参数";  
+"preference.detail.java_args" = "高阶Java参数（改错可能导致渡劫失败）";  
+"preference.placeholder.java_args" = "自定义参数...";  
+"preference.title.auto_ram" = "自动内存分配";  
+"preference.detail.auto_ram" = "智能分配内存大小";  
+"preference.warn.auto_ram" = "非越狱设备关闭此选项可能导致玄学崩溃";  
+"preference.title.allocated_memory" = "内存分配 (MB)";  
+"preference.detail.allocated_memory" = "分配给MC的内存大小";  
+"preference.warn.allocated_memory" = "分配过高可能导致系统天劫";  
+"preference.title.custom_env" = "环境变量";  
+"preference.detail.custom_env" = "施工中，请编辑 custom_env.txt";  
 
-"preference.title.debug_skip_wait_jit" = "跳过获取\"JIT(Just-in-time)\"请求";
-"preference.detail.debug_skip_wait_jit" = "这并不是让您在没有 JIT 的情况下启动，而是跳过调试检查，因为在越狱设备上会检查失败。";
-"preference.title.debug_ipad_ui" = "使用 iPadOS 界面";
-"preference.detail.debug_ipad_ui" = "开启后会使用 iPad OS 的专用界面，否则使用 iPhone 的界面。";
-"preference.title.debug_auto_correction" = "自动校正";
-"preference.detail.debug_auto_correction" = "在游戏中输入文本时启用自动校正。";
-"preference.title.debug_hide_home_indicator" = "隐藏主屏幕指示键";
-"preference.detail.debug_hide_home_indicator" = "此选项将会禁用主屏幕指示键锁定，你将会需要启用引导式访问来同时隐藏和锁定主屏幕指示键。";
-"preference.title.debug_show_layout_bounds" = "显示边界布局";
-"preference.detail.debug_show_layout_bounds" = "显示剪辑边界、边距";
-"preference.title.debug_show_layout_overlap" = "布局重叠显示";
-"preference.detail.debug_show_layout_overlap" = "用浅黄色覆盖每个视图，颜色越深则重叠越多";
+"preference.title.debug_skip_wait_jit" = "跳过JIT检测";  
+"preference.detail.debug_skip_wait_jit" = "越狱设备专用（仍需实际开启JIT）";  
+"preference.title.debug_ipad_ui" = "启用iPad界面";  
+"preference.detail.debug_ipad_ui" = "切换iPad专属界面布局";  
+"preference.title.debug_auto_correction" = "自动纠错";  
+"preference.detail.debug_auto_correction" = "游戏内输入时启用自动修正";  
+"preference.title.debug_hide_home_indicator" = "隐藏Home条";  
+"preference.detail.debug_hide_home_indicator" = "需配合引导式访问使用";  
+"preference.title.debug_show_layout_bounds" = "显示布局结界";  
+"preference.detail.debug_show_layout_bounds" = "显示界面元素边界";  
+"preference.title.debug_show_layout_overlap" = "显示布局重叠";  
+"preference.detail.debug_show_layout_overlap" = "黄色越深表示重叠越严重";  
 
-"controller_configurator.title.current" = "游戏键盘配置文件";
-"controller_configurator.title.type.xbox" = "Xbox";
-"controller_configurator.title.type.playstation" = "PlayStation";
+"controller_configurator.title.current" = "手柄键位配置";  
+"controller_configurator.title.type.xbox" = "Xbox派";  
+"controller_configurator.title.type.playstation" = "PlayStation派";  
 
-"controller_configurator.xbox.title.bumper_left" = "左前按钮（LB）";
-"controller_configurator.xbox.title.bumper_right" = "右前按钮（RB）";
-"controller_configurator.xbox.title.trigger_left" = "左扳机（LT）";
-"controller_configurator.xbox.title.trigger_right" = "右扳机（RT）";
-"controller_configurator.xbox.title.named_back" = "指南";
-"controller_configurator.xbox.title.named_start" = "菜单";
-"controller_configurator.xbox.title.named_a" = "A";
-"controller_configurator.xbox.title.named_b" = "B";
-"controller_configurator.xbox.title.named_x" = "X";
-"controller_configurator.xbox.title.named_y" = "Y";
-"controller_configurator.xbox.title.dpad_up" = "上";
-"controller_configurator.xbox.title.dpad_down" = "下";
-"controller_configurator.xbox.title.dpad_left" = "左";
-"controller_configurator.xbox.title.dpad_right" = "右";
-"controller_configurator.xbox.title.thumb_left" = "左手套装";
-"controller_configurator.xbox.title.thumb_right" = "右拇指单击";
+"controller_configurator.xbox.title.bumper_left" = "左肩键（LB）";  
+"controller_configurator.xbox.title.bumper_right" = "右肩键（RB）";  
+"controller_configurator.xbox.title.trigger_left" = "左扳机（LT）";  
+"controller_configurator.xbox.title.trigger_right" = "右扳机（RT）";  
+"controller_configurator.xbox.title.named_back" = "导航键";  
+"controller_configurator.xbox.title.named_start" = "菜单键";  
+"controller_configurator.xbox.title.named_a" = "A键";  
+"controller_configurator.xbox.title.named_b" = "B键";  
+"controller_configurator.xbox.title.named_x" = "X键";  
+"controller_configurator.xbox.title.named_y" = "Y键";  
+"controller_configurator.xbox.title.dpad_up" = "方向上";  
+"controller_configurator.xbox.title.dpad_down" = "方向下";  
+"controller_configurator.xbox.title.dpad_left" = "方向左";  
+"controller_configurator.xbox.title.dpad_right" = "方向右";  
+"controller_configurator.xbox.title.thumb_left" = "左摇杆";  
+"controller_configurator.xbox.title.thumb_right" = "右摇杆";  
 
-"controller_configurator.playstation.title.bumper_left" = "L1";
-"controller_configurator.playstation.title.bumper_right" = "R1";
-"controller_configurator.playstation.title.trigger_left" = "L2";
-"controller_configurator.playstation.title.trigger_right" = "R2";
-"controller_configurator.playstation.title.named_back" = "选择";
-"controller_configurator.playstation.title.named_start" = "开始";
-"controller_configurator.playstation.title.named_a" = "叉";
-"controller_configurator.playstation.title.named_b" = "圆";
-"controller_configurator.playstation.title.named_x" = "方";
-"controller_configurator.playstation.title.named_y" = "三角";
-"controller_configurator.playstation.title.dpad_up" = "上";
-"controller_configurator.playstation.title.dpad_down" = "下";
-"controller_configurator.playstation.title.dpad_left" = "左";
-"controller_configurator.playstation.title.dpad_right" = "右";
-"controller_configurator.playstation.title.thumb_left" = "L3";
-"controller_configurator.playstation.title.thumb_right" = "R3";
+"controller_configurator.playstation.title.bumper_left" = "L1键";  
+"controller_configurator.playstation.title.bumper_right" = "R1键";  
+"controller_configurator.playstation.title.trigger_left" = "L2键";  
+"controller_configurator.playstation.title.trigger_right" = "R2键";  
+"controller_configurator.playstation.title.named_back" = "选择键";  
+"controller_configurator.playstation.title.named_start" = "开始键";  
+"controller_configurator.playstation.title.named_a" = "叉键";  
+"controller_configurator.playstation.title.named_b" = "圆键";  
+"controller_configurator.playstation.title.named_x" = "方键";  
+"controller_configurator.playstation.title.named_y" = "三角键";  
+"controller_configurator.playstation.title.dpad_up" = "方向上";  
+"controller_configurator.playstation.title.dpad_down" = "方向下";  
+"controller_configurator.playstation.title.dpad_left" = "方向左";  
+"controller_configurator.playstation.title.dpad_right" = "方向右";  
+"controller_configurator.playstation.title.thumb_left" = "L3键";  
+"controller_configurator.playstation.title.thumb_right" = "R3键";  
 
-"controller_configurator.section.config_files" = "当前配置文件";
-"controller_configurator.section.game_mappings" = "游戏映射";
-"controller_configurator.section.footer.game_mappings" = "当鼠标在游戏中被锁定时绑定。";
-"controller_configurator.section.menu_mappings" = "菜单映射";
-"controller_configurator.section.footer.menu_mappings" = "当鼠标未被锁定时，如在标题屏幕或暂停菜单中时绑定。";
-"controller_configurator.section.controller_style" = "手柄类型";
-"controller_configurator.section.footer.controller_style" = "在此配置器中显示不同的手柄按钮名称。";
+"controller_configurator.section.config_files" = "当前配置秘籍";  
+"controller_configurator.section.game_mappings" = "游戏键位绑定";  
+"controller_configurator.section.footer.game_mappings" = "鼠标锁定状态下的键位";  
+"controller_configurator.section.menu_mappings" = "菜单键位绑定";  
+"controller_configurator.section.footer.menu_mappings" = "标题/暂停界面的键位";  
+"controller_configurator.section.controller_style" = "手柄门派";  
+"controller_configurator.section.footer.controller_style" = "切换手柄按钮命名风格";  在标题屏幕或暂停菜单中时绑定。";
